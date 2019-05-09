@@ -70,7 +70,6 @@ def get_average_age_for_season(data, season)
     total += i
   }
   total = total/age_array.length
-  total.to_f.ceil
-  return total
+  return total.to_f.ceil
   #binding.pry
 end
